@@ -710,6 +710,8 @@
         .booza-pricetag b { font-family: var(--font-display); color: var(--gold-lt); font-size: 1.9rem; line-height: 1.1; }
         .booza-flavors { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; margin-top: clamp(2.4rem, 5vw, 3.4rem); position: relative; z-index: 2; }
         .booza-flavor { background: rgba(255,255,255,0.04); border: 1px solid rgba(227,199,126,0.22); border-radius: 16px; padding: 1.6rem 1.7rem; }
+        .booza-flavor .flavor-img { width: 100%; height: 220px; border-radius: 12px; overflow: hidden; margin-bottom: 1.3rem; background: #0d0805; }
+        .booza-flavor .flavor-img img { width: 100%; height: 100%; object-fit: contain; }
         .booza-flavor .ar { font-family: var(--font-arabic); color: var(--gold); font-size: 1.1rem; display: block; margin-bottom: 0.4rem; }
         .booza-flavor h4 { font-family: var(--font-display); font-size: 1.5rem; color: var(--gold-lt); font-weight: 600; margin-bottom: 0.5rem; }
         .booza-flavor p { color: var(--text-dim); font-size: 0.95rem; line-height: 1.65; }
@@ -1394,11 +1396,13 @@
             </div>
             <div class="booza-flavors">
                 <div class="booza-flavor reveal">
+                    <div class="flavor-img"><img src="tinified/sorvete-turco-shrub-al-louz.jpg" alt="Sorvete Turco Shrub al Louz" loading="lazy"></div>
                     <span class="ar">بوظة</span>
                     <h4>Sorvete Turco Shrub al Louz</h4>
                     <p>O irresistível efeito "puxa-puxa" do Sahlep, extraído de uma orquídea silvestre que é encontrada somente na Turquia, em uma versão inspirada na tradicional bebida árabe de amêndoas. Textura firme, cremosa e com o sabor nobre das castanhas.</p>
                 </div>
                 <div class="booza-flavor reveal reveal-d2">
+                    <div class="flavor-img"><img src="tinified/sorvete-turco-rosas-do-deserto.jpg" alt="Sorvete Turco Rosas do Deserto" loading="lazy"></div>
                     <span class="ar">وردة الصحراء</span>
                     <h4>Rosas do Deserto</h4>
                     <p>O legítimo sorvete turco com sua famosa textura elástica ("puxa-puxa") garantida pelo Sahlep, extraído de uma orquídea silvestre que é encontrada somente na Turquia. Uma combinação exótica, perfumada e refrescante com essência de rosas.</p>
